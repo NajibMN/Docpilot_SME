@@ -419,29 +419,51 @@
               time with the perfect solution for your needs!
             </p>
 
-            <form>
+            <form
+              action="https://formsubmit.co/David@imagineaigroup.com"
+              method="POST"
+            >
+              <input type="hidden" name="_template" value="table" />
+              <input type="text" name="_honey" style="display: none" />
+              <input
+                type="hidden"
+                name="_cc"
+                value="enquiry@imagineaigroup.com"
+              />
+
               <div style="padding-top: 16px" class="form-group">
                 <div class="form-group-setinput">
                   <label for="first-name">Name</label>
-                  <input type="text" id="first-name" placeholder="John Doe" />
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="John Doe"
+                    required
+                  />
                 </div>
                 <div class="form-group-setinput">
                   <label for="last-name">Business Type</label>
-                  <input type="text" id="last-name" placeholder="Industry " />
+                  <input type="text" name="business" placeholder="Industry" />
                 </div>
               </div>
 
               <div style="padding-top: 4px" class="form-group">
                 <div class="form-group-setinput">
                   <label for="phone">Phone Number</label>
-                  <input type="text" id="phone" placeholder="(+60) 0000-0000" />
+                  <input
+                    type="tel"
+                    name="mobile"
+                    placeholder="+60 123456789"
+                    required
+                  />
                 </div>
                 <div class="form-group-setinput">
                   <label for="email">E-mail</label>
                   <input
                     type="email"
-                    id="email"
-                    placeholder="ex: myname@example.com"
+                    name="email"
+                    placeholder="name@domain.com"
+                    required
                   />
                 </div>
               </div>
